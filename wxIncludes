@@ -1,0 +1,9 @@
+#ifndef WXINCLUDES
+#define WXINCLUDES
+
+#include "wx/wx.h"
+#include "wx/glcanvas.h"
+#include "wx/progdlg.h"
+#include <OpenGL/glu.h>
+
+#endif

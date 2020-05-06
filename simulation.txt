@@ -1,0 +1,448 @@
+<systeme>
+<dt> 5e-11 </dt>
+<eps> 1e-3 </eps>
+
+<accelerateur>
+
+
+<typique>
+
+<masse> 0.938272 </masse>
+<charge> 1.6021765e-19</charge>
+
+</typique>
+
+
+<fodo>
+
+<entree> 5 2 0 </entree>
+
+<sortie> 5 -2 0 </sortie>
+
+<b> 1.2 </b>
+
+<L> 1 </L>
+
+<rayon> 0.1 </rayon>
+
+</fodo>
+
+
+<sextupole>
+
+<entree> 5 -2 0 </entree>
+
+<sortie> 5 -3 0 </sortie>
+
+<b> 5.2 </b>
+
+<rayon> 0.1 </rayon>
+
+</sextupole>
+
+
+<section>
+
+<rayon> 0.1 </rayon>
+
+<entree> 5 -3 0 </entree>
+
+<sortie> 5 -4 0 </sortie>
+
+</section>
+
+
+
+<dipole>
+
+<rayon> 0.1 </rayon>
+
+<entree> 5 -4 0 </entree>
+
+<sortie> 4 -5 0 </sortie>
+
+<Bz> 5.89158 </Bz>
+
+<k> 1 </k>
+
+</dipole>
+
+
+<quadrupole>
+
+<entree> 4 -5 0 </entree>
+
+<sortie> 3 -5 0 </sortie>
+
+<b> 5.2 </b>
+
+<rayon> 0.1 </rayon>
+
+</quadrupole>
+
+
+<cavite>
+
+<entree> 3 -5 0 </entree>
+
+<sortie> 2 -5 0 </sortie>
+
+<V> 2e6 </V>
+
+<psi> 0.7853 </psi>
+
+<lambda> 0.01 </lambda>
+
+<zero> 3.2 </zero>
+
+<rayon> 0.1 </rayon>
+
+</cavite>
+
+
+<fodo>
+
+<entree> 2 -5 0 </entree>
+
+<sortie> -2 -5 0 </sortie>
+
+<b> 1.2 </b>
+
+<L> 1 </L>
+
+<rayon> 0.1 </rayon>
+
+</fodo>
+
+
+<sextupole>
+
+<entree> -2 -5 0 </entree>
+
+<sortie> -3 -5 0 </sortie>
+
+<b> 5.2 </b>
+
+<rayon> 0.1 </rayon>
+
+</sextupole>
+
+
+<section>
+
+<rayon> 0.1 </rayon>
+
+<entree> -3 -5 0 </entree>
+
+<sortie> -4 -5 0 </sortie>
+
+</section>
+
+
+
+<dipole>
+
+<rayon> 0.1 </rayon>
+
+<entree> -4 -5 0 </entree>
+
+<sortie> -5 -4 0 </sortie>
+
+<Bz> 5.89158 </Bz>
+
+<k> 1 </k>
+
+</dipole>
+
+
+
+<quadrupole>
+
+<entree> -5 -4 0 </entree>
+
+<sortie> -5 -3 0 </sortie>
+
+<b> 5.2 </b>
+
+<rayon> 0.1 </rayon>
+
+</quadrupole>
+
+
+
+<cavite>
+
+<entree> -5 -3 0 </entree>
+
+<sortie> -5 -2 0 </sortie>
+
+<V> 2e6 </V>
+
+<psi> 0.7853 </psi>
+
+<lambda> 0.01 </lambda>
+
+<zero> 3.2 </zero>
+
+<rayon> 0.1 </rayon>
+
+</cavite>
+
+
+<fodo>
+
+<rayon> 0.1 </rayon>
+
+<entree> -5 -2 0 </entree>
+
+<sortie> -5 2 0 </sortie>
+
+<b> 1.2 </b>
+
+<L> 1 </L>
+
+</fodo>
+
+
+<sextupole>
+
+<entree> -5 2 0 </entree>
+
+<sortie> -5 3 0 </sortie>
+
+<b> 5.2 </b>
+
+<rayon> 0.1 </rayon>
+
+</sextupole>
+
+
+
+<section>
+
+<rayon> 0.1 </rayon>
+
+<entree> -5 3 0 </entree>
+
+<sortie> -5 4 0 </sortie>
+
+</section>
+
+
+
+<dipole>
+
+<rayon> 0.1 </rayon>
+
+<entree> -5 4 0 </entree>
+
+<sortie> -4 5 0 </sortie>
+
+<Bz> 5.89158 </Bz>
+
+<k> 1 </k>
+
+</dipole>
+
+
+
+<quadrupole>
+
+<entree> -4 5 0 </entree>
+
+<sortie> -3 5 0 </sortie>
+
+<b> 5.2 </b>
+
+<rayon> 0.1 </rayon>
+
+</quadrupole>
+
+
+
+<cavite>
+
+<entree> -3 5 0 </entree>
+
+<sortie> -2 5 0 </sortie>
+
+<V> 2e6 </V>
+
+<psi> 0.7853 </psi>
+
+<lambda> 0.01 </lambda>
+
+<zero> 3.2 </zero>
+
+<rayon> 0.1 </rayon>
+
+</cavite>
+
+
+<fodo>
+
+<rayon> 0.1 </rayon>
+
+<entree> -2 5 0 </entree>
+
+<sortie> 2 5 0 </sortie>
+
+<b> 1.2 </b>
+
+<L> 1 </L>
+
+</fodo>
+
+
+<sextupole>
+
+<entree> 2 5 0 </entree>
+
+<sortie> 3 5 0 </sortie>
+
+<b> 5.2 </b>
+
+<rayon> 0.1 </rayon>
+
+</sextupole>
+
+
+<section>
+
+<rayon> 0.1 </rayon>
+
+<entree> 3 5 0 </entree>
+
+<sortie> 4 5 0 </sortie>
+
+</section>
+
+
+
+<dipole>
+
+<rayon> 0.1 </rayon>
+
+<entree> 4 5 0 </entree>
+
+<sortie> 5 4 0 </sortie>
+
+<Bz> 5.89158 </Bz>
+
+<k> 1 </k>
+
+</dipole>
+
+
+
+
+<quadrupole>
+
+<entree> 5 4 0 </entree>
+
+<sortie> 5 3 0 </sortie>
+
+<b> 5.2 </b>
+
+<rayon> 0.1 </rayon>
+
+</quadrupole>
+
+
+
+<cavite>
+
+<entree> 5 3 0 </entree>
+
+<sortie> 5 2 0 </sortie>
+
+<V> 2e6 </V>
+
+<psi> 0.7853 </psi>
+
+<lambda> 0.01 </lambda>
+
+<zero> 3.2 </zero>
+
+<rayon> 0.1 </rayon>
+
+</cavite>
+
+
+
+<faisceau>
+
+<type>
+
+<position>  5 0 0 </position>
+
+<energie> 2 </energie>
+
+<masse> 0.938272 </masse>
+
+<charge> 1.6021765e-19</charge>
+
+<direction> 0 -1 0 </direction>
+
+</type>
+
+<element> 1 </element>
+
+<lambda> 1000 </lambda>
+
+<nombre> 50 </nombre>
+
+<bunch>  1 </bunch>
+
+<dv> 5e-8 </dv>
+
+<emittance> 4e-6 </emittance>
+
+<aud> 1e-5 </aud>
+
+<add> 1e-5 </add>
+
+</faisceau>
+
+
+<faisceau>
+
+<type>
+
+<position>  -5 0 0 </position>
+
+<energie> 2 </energie>
+
+<masse> 0.938272 </masse>
+
+<charge> 1.6021765e-19</charge>
+
+<direction> 0 1 0 </direction>
+
+</type>
+
+<element> 13 </element>
+
+<lambda> 1000 </lambda>
+
+<nombre> 50 </nombre>
+
+<bunch>  1 </bunch>
+
+<dv> 5e-8 </dv>
+
+<emittance> 4e-6 </emittance>
+
+<aud> 1e-5 </aud>
+
+<add> 1e-5 </add>
+
+</faisceau>
+
+
+
+</accelerateur>
+
+
+</systeme>
+
